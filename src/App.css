@@ -35,3 +35,7 @@ h2 {
   width: 220px;
   height: 123px;
 }
+
+.poster img:hover {
+  cursor: pointer;
+}
