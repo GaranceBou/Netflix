@@ -34,4 +34,5 @@ h2 {
 .poster img {
   width: 220px;
   object-fit: cover;
+  height: 123px;
 }
