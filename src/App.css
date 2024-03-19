@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.page {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  padding-left: 50px;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.carrousel {
+  display: flex;
+  padding-bottom: 30px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.carrousel::-webkit-scrollbar {
+  display: none;
+}
+
+.poster img {
+  width: 220px;
+  object-fit: cover;
+}
