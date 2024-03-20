@@ -7,13 +7,11 @@ import data from "./assets/data.json";
 function App() {
   return (
     <>
-      <div className="page">
-        <Header />
-        <div className="section">
-          {data.map((elem) => {
-            return <Section elem={elem} key={elem.category} />;
-          })}
-        </div>
+      <Header />
+      <div className="section">
+        {data.map((elem) => {
+          return <Section elem={elem} key={elem.category} />;
+        })}
       </div>
     </>
   );
