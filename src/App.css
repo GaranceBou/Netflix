@@ -10,7 +10,7 @@
 body {
   background-color: black;
   font-family: "Roboto", sans-serif;
-  padding-left: 50px;
+  padding-left: 40px;
 }
 
 h2 {
@@ -29,6 +29,11 @@ h2 {
 
 .carrousel::-webkit-scrollbar {
   display: none;
+}
+
+.carrousel {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .poster img {
